@@ -70,6 +70,10 @@ members = [
     "apps/task/yield",
     "apps/task/priority",
     "apps/task/tls",
+
+    "labs/ch1",
+    "labs/ch2",
+    "labs/ch3",
 ]
 
 [profile.release]

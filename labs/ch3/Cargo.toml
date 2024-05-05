@@ -1,0 +1,14 @@
+[package]
+name = "arceos-lab-ch3"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kaifu Tian <kaifu6821@qq.com>"]
+
+[features]
+default = []
+
+[dependencies]
+axstd = { path = "../../ulib/axstd", features = ["paging"] }
+# axfeat = { path = "../../api/axfeat", features = ["multitask", "sched_fifo", "log-level-debug"] }
+# arceos_api = { path = "../../api/arceos_api", features = ["multitask"] }
+# axlog = { path = "../../modules/axlog" }
